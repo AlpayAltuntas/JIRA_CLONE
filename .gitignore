@@ -1,0 +1,35 @@
+# Secrets and keys — never commit
+.env
+secrets/*
+!secrets/README.md
+certs/*
+!certs/README.md
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Security tool raw output
+docs/security/testing/reports/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
